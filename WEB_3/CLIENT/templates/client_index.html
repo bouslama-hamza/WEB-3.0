@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <!-- Slider Area Start-->
+    <div class="slider-area slider-bg ">
+        <div class="slider-active dot-style">
+            <div class="single-slider d-flex align-items-center slider-height ">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-9 ">
+                            <div class="hero__caption">
+                                <h1 data-animation="fadeInLeft" data-delay=".3s">Hosting digital  technology web  solution! </h1>
+                                <p data-animation="fadeInLeft" data-delay=".6s">Automated Control Panel with Up to 50% Off  Hosting Starting from $2.50/Month.</p>
+                                <!-- Slider btn -->
+                               <div class="slider-btns">
+                                    <!-- Hero-btn -->
+                                    <a data-animation="fadeInLeft" data-delay="1s" href="#" class="btn radius-btn">get started</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="hero__img d-none d-lg-block f-right">
+                                <img src="{% static 'assets/img/hero/hero_right.png'%}" alt="" data-animation="fadeInRight" data-delay="1s">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>
+        <!-- slider Social -->
+        <div class="slider-social d-none d-md-block">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-globe"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+{% endblock %}
