@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <!-- Hero Start-->
+    <div class="slider-area slider-bg ">
+        <div class="single-slider d-flex align-items-center slider-height2 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap text-center pt-50">
+                            <h2>Our Services</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slider Shape -->
+        <div class="slider-shape d-none d-lg-block">
+            <img class="slider-shape1" src="assets/img/hero/top-left-shape.png" alt="">
+            <img class="slider-shape2" src="assets/img/hero/right-top-shape.png" alt="">
+            <img class="slider-shape3" src="assets/img/hero/left-botom-shape.png" alt="">
+        </div>
+    </div>
+    <!--Hero End -->
+    <div class="services-area section-padding30 fix">
+        <div class="container">
+            <!-- Section Tittle -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-tittle text-center mb-100">
+                        <span>Oue Best Services</span>
+                        <h2>What we have for you</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services-wrapper mb-50">
+                        <div class="single-services">
+                            <div class="services-icon">
+                                <span class="flaticon-server"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h3><a href="#">Shared Transaction</a></h3>
+                                <p>Have a full overview on your latest meta mask transaction data</p>
+                            </div>
+                        </div>
+                        <div class="services-shape">
+                            <span>.01</span>
+                            <img src="{% static 'assets/img/gallery/shape-services.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services-wrapper mb-50">
+                        <div class="single-services">
+                            <div class="services-icon">
+                                <span class="flaticon-green"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h3><a href="#">Reseller Transaction</a></h3>
+                                <p>Full control on your smart contract with multi walet ability</p>
+                            </div>
+                        </div>
+                        <div class="services-shape">
+                            <span>.02</span>
+                            <img src="{% static 'assets/img/gallery/shape-services.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services-wrapper mb-50">
+                        <div class="single-services">
+                            <div class="services-icon">
+                                <span class="flaticon-servers"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h3><a href="#">Cloud Transaction</a></h3>
+                                <p>Transfer one , control everywhere with a simple dashboard data</p>
+                            </div>
+                        </div>
+                        <div class="services-shape">
+                            <span>.03</span>
+                            <img src="{% static 'assets/img/gallery/shape-services.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Area End -->
+{% endblock %}
