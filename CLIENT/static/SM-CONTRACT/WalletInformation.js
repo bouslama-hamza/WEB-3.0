@@ -8,10 +8,13 @@ async function checkBalance(WalletAdressse) {
     }).catch((err)=> {
         console.log(err)
     })
+    // fix the balance
+    balance = parseFloat((balance)/Math.pow(10,18)).toFixed(2);
+    localStorage.setItem('WalletBalance', balance);
 }
 
 // Check For Wallet Connected
-async function makesureWalletConnected(WalletAdressse) {
+async function makesureWalletConnected(WalletAdressse){
     if (window.location.href != 'http://127.0.0.1:8000/') {
         if(WalletAdressse !== 'None'){
             return true;
@@ -23,11 +26,24 @@ async function makesureWalletConnected(WalletAdressse) {
     }
 };
 
+// Get transaction history
+async function getTransactionHistory(WalletAdressse){
+    let transactionHistory = await window.ethereum.request({ method: "eth_getTransactionCount",
+        params: [
+            WalletAdressse,
+            'latest'
+        ]
+    }).catch((err)=> {
+        console.log(err)
+    })
+    return transactionHistory;
+}
+
 // Sign out from wallet
 document.getElementById('signOut').addEventListener('click' , () => {
     window.userWalletAddress = "None";
     window.location.href = localStorage.getItem('Locationhref');
-    localStorage.setItem('userWalletAddress', 'None');
+    localStorage.clear();
 })
 
 // onload function

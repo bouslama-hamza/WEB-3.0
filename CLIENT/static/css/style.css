@@ -6073,3 +6073,6 @@ File: scss
     overflow: hidden;
   }
 }
+.c3-chart-arcs-title{
+  font-size: 30px !important;
+}

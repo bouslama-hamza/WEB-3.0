@@ -1,6 +1,4 @@
-from django.shortcuts import redirect, render
-from WEB_3.decorators import authorization
-from django.urls import reverse
+from django.shortcuts import render
 
 def client_index(request):
     return render(request, 
@@ -27,8 +25,12 @@ def client_dashboard(request):
         'AppPage/client_dashboard.html'
         ,{'title': 'Dashboard'})
 
-@authorization
 def client_profile(request):
     return render(request , 
         'AppPage/client_profile.html'
         ,{'title': 'Profile'})
+
+def client_transaction(request):
+    return render(request , 
+        'AppPage/client_transaction.html'
+        ,{'title': 'Transaction'})

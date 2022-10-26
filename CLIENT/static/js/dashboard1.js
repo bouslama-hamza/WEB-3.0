@@ -1,9 +1,3 @@
-/*
-Template Name: Admin Pro Admin
-Author: Wrappixel
-Email: niravjoshi87@gmail.com
-File: js
-*/
 $(function() {
     "use strict";
     // ============================================================== 
@@ -16,28 +10,22 @@ $(function() {
             columns: [
                 ['Other', 30],
                 ['Desktop', 10],
-                ['Tablet', 40],
+                ['Validat', 40],
                 ['Mobile', 50],
             ],
 
             type: 'donut',
-            onclick: function(d, i) { console.log("onclick", d, i); },
-            onmouseover: function(d, i) { console.log("onmouseover", d, i); },
-            onmouseout: function(d, i) { console.log("onmouseout", d, i); }
         },
         donut: {
             label: {
                 show: false
             },
-            title: "Visits",
-            width: 20,
-
+            title: localStorage.getItem('WalletBalance')+ " ETH",
+            width: 15,
         },
 
         legend: {
             hide: true
-            //or hide: 'data1'
-            //or hide: ['data1', 'data2']
         },
         color: {
             pattern: ['#eceff1', '#24d2b5', '#6772e5', '#20aee3']
@@ -105,9 +93,6 @@ $(function() {
             ],
 
             type: 'donut',
-            onclick: function(d, i) { console.log("onclick", d, i); },
-            onmouseover: function(d, i) { console.log("onmouseover", d, i); },
-            onmouseout: function(d, i) { console.log("onmouseout", d, i); }
         },
         donut: {
             label: {
@@ -140,9 +125,6 @@ $(function() {
                 ['data', 91.4]
             ],
             type: 'gauge',
-            onclick: function(d, i) { console.log("onclick", d, i); },
-            onmouseover: function(d, i) { console.log("onmouseover", d, i); },
-            onmouseout: function(d, i) { console.log("onmouseout", d, i); }
         },
 
         color: {

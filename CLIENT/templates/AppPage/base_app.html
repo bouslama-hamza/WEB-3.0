@@ -63,15 +63,6 @@
                                     class="srh-btn"><i class="fa fa-times"></i></a></form>
                         </li>
                     </ul>
-                    <ul class="navbar-nav my-lg-0">
-                        <li class="nav-item dropdown u-pro">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="#"
-                                id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
-                                    src="{% static 'assets/images/users/1.jpg' %}" alt="user" class="" /> <span
-                                    class="hidden-md-down">Mark Sanders &nbsp;</span> </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
-                        </li>
-                    </ul>
                 </div>
             </nav>
         </header>
@@ -85,7 +76,7 @@
                                     class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</span></a>
                         </li>
                         <!-- transaction href -->
-                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i
+                        <li> <a class="waves-effect waves-dark" href="{% url 'client-transaction' %}" aria-expanded="false"><i
                                     class="fa fa-money"></i><span class="hide-menu">Transaction</span></a>
                         </li>
                         <li> <a class="waves-effect waves-dark" href="{% url 'client-profile' %}" aria-expanded="false"><i
@@ -125,5 +116,6 @@
     <!-- Chart JS -->
     <script src="{% static 'js/dashboard1.js' %}"></script>
     <script src="{% static 'SM-CONTRACT/WalletInformation.js' %}"></script>
+    <script src="{% static 'SM-CONTRACT/MakeTransaction.js' %}"></script>
 </body>
 </html>

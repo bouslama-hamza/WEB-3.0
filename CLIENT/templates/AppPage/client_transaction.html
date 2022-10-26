@@ -1,0 +1,92 @@
+{% extends "AppPage/base_app.html" %}
+{% load static %}
+{% block content %}
+<div class="page-wrapper">
+    <div class="container-fluid">
+        <div class="row page-titles">
+            <div class="col-md-5 align-self-center">
+                <h3 class="text-themecolor">Transaction</h3>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                    <li class="breadcrumb-item active">Transaction</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Row -->
+        <div class="row">
+            <!-- Column -->
+            <!-- Column -->
+            <div class="col-lg-8 col-xlg-9 col-md-7">
+                <div class="card">
+                    <!-- Tab panes -->
+                    <div class="card-body">
+                        <div class="form-horizontal form-material mx-2">
+                            <div class="form-group">
+                                <label class="col-md-12">Sender Wallet Address</label>
+                                <div class="col-md-12">
+                                    <input type="text" id="SenderAddress"
+                                        class="form-control form-control-line">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="example-email" class="col-md-12">Receiver Wallet Address</label>
+                                <div class="col-md-12">
+                                    <input type="text" id="ReceiverAddress"
+                                        class="form-control form-control-line" name="example-email"
+                                        id="example-email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-12">Transaction Amount</label>
+                                <div class="col-md-12">
+                                    <input type="number" id="TransactionAmount"
+                                        class="form-control form-control-line">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-12">Message</label>
+                                <div class="col-md-12">
+                                    <textarea rows="5" class="form-control form-control-line"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-12">Select Country</label>
+                                <div class="col-sm-12">
+                                    <select class="form-control form-control-line">
+                                        <option>London</option>
+                                        <option>India</option>
+                                        <option>Usa</option>
+                                        <option>Canada</option>
+                                        <option>Thailand</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <button id="sendTransaction" class="btn btn-success">Send Transaction</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xlg-3 col-md-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex mb-4 no-block">
+                            <h5 class="card-title mb-0 align-self-center">Total Amount</h5>
+                        </div>
+                        <div id="visitor" style="height:260px; width:100%;"></div>
+                        <ul class="list-inline mt-4 text-center font-15">
+                            <li><i class="fa fa-circle text-purple"></i> Validat</li>
+                            <li><i class="fa fa-circle text-success"></i> Desktops</li>
+                            <li><i class="fa fa-circle text-info"></i> Mobile</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer"> © 2021 Adminwrap by <a href="https://www.wrappixel.com/">wrappixel.com</a> </footer>
+</div>
+{% endblock content %}
