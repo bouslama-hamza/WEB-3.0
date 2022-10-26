@@ -50,6 +50,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+WEB3AUTH_USER_ADDRESS_FIELD = 'username'
+
 ROOT_URLCONF = 'WEB_3.urls'
 
 TEMPLATES = [

@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "HomePage/base.html" %}
 {% load static %}
 {% block content %}
     <!-- Hero Start-->
@@ -16,9 +16,9 @@
         </div>
         <!-- Slider Shape -->
         <div class="slider-shape d-none d-lg-block">
-            <img class="slider-shape1" src="assets/img/hero/top-left-shape.png" alt="">
-            <img class="slider-shape2" src="assets/img/hero/right-top-shape.png" alt="">
-            <img class="slider-shape3" src="assets/img/hero/left-botom-shape.png" alt="">
+            <img class="slider-shape1" src="{% static 'assets/img/hero/top-left-shape.png' %}" alt="">
+            <img class="slider-shape2" src="{% static 'assets/img/hero/right-top-shape.png' %}" alt="">
+            <img class="slider-shape3" src="{% static 'assets/img/hero/left-botom-shape.png' %}" alt="">
         </div>
     </div>
     <!--Hero End -->
