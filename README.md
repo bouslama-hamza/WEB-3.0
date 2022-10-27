@@ -32,7 +32,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fweb-3-0-concept-web-logo-vector-illustration_689336-24.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fweb-3-0-concept-web-logo-vector-illustration_30216616.htm&tbnid=gBn5b8Gl0qVrdM&vet=12ahUKEwix77GWn4D7AhVEyRoKHYtXAzIQMygAegUIARC-AQ..i&docid=glu4m5NwhA8svM&w=360&h=360&itg=1&q=WEB%203.0%20logo&ved=2ahUKEwix77GWn4D7AhVEyRoKHYtXAzIQMygAegUIARC-AQ" alt="Logo" width="80" height="80">
+    <img src="/staticfiles/assets/img/logo/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
