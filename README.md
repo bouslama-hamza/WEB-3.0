@@ -79,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
 
 In order to implement this new impact in our new application, we tried to create the first Web 3.0 Moroccan website using the technologies of Django and web3.0.py. This was done in consideration of the advancements that are known in the field of e-technologies and the blockchain, Smart Contract development.
 
