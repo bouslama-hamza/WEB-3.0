@@ -35,19 +35,14 @@
     <img src="/staticfiles/assets/img/logo/logo.png" alt="Logo">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">WEB 3.0 And Django</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    First Application Of WEB 3.0 With Django Using The Technologie Of Meta Mask
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/bouslama-hamza"><strong>Explore the docs</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
 
