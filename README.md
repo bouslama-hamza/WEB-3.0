@@ -81,14 +81,14 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+In order to implement this new impact in our new application, we tried to create the first Web 3.0 Moroccan website using the technologies of Django and web3.0.py. This was done in consideration of the advancements that are known in the field of e-technologies and the blockchain, Smart Contract development.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You shouldn't be doing the same tasks over and over like makeing a Transaction from scratch
 * You should implement DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Of course, no one will work on every job because your needs could differ. Therefore, I'll be adding more soon. You can also propose modifications by forking this repository, submitting a pull request, or starting an issue. Many thanks to everyone who helped to expand this template!
 
 Use the `BLANK_README.md` to get started.
 
