@@ -125,7 +125,7 @@ Project Link: [https://github.com/bouslama-hamza/WEB-3.0](https://github.com/bou
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/hamza-bouslama
 [product-screenshot]: /staticfiles/assets/img/template.png
 [Django.com]:https://img.shields.io/badge/Django-0769AD?style=for-the-badge&logo=django&logoColor=white
 [Django-url]:https://www.djangoproject.com/
