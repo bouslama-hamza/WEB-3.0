@@ -132,7 +132,7 @@ Contributions are what make the open source community such an amazing place to l
 <!-- CONTACT -->
 ## Contact
 
-Hamza Bouslama - [@gmail](ham.bousa98@gmail.com)
+Hamza Bouslama - [Hamza:Gmail](ham.bousa98@gmail.com)
 
 Project Link: [https://github.com/bouslama-hamza/WEB-3.0](https://github.com/bouslama-hamza/WEB-3.0)
 
