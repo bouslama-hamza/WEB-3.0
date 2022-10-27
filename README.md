@@ -92,10 +92,12 @@ _The project's concept may seem a little sophisticated, but the steps for gettin
    ```
    git clone https://github.com/bouslama-hamza/WEB-3.0
    ```
+   
 3. Install Django packages
-  ```
-  pip install -r requirement.txt
-  ```
+   ```
+   pip install -r requirement.txt
+   ```
+   
 4. Make Migrations to launch the data base
    ```
     python manage.py makemigration
@@ -151,8 +153,8 @@ Project Link: [https://github.com/bouslama-hamza/WEB-3.0](https://github.com/bou
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: /staticfiles/assets/img/template.png
-[Django.com]:https://www.djangoproject.com/
-[Django-url]:https://img.shields.io/badge/Django-0769AD?style=for-the-badge&logo=django&logoColor=white
+[Django.com]:https://img.shields.io/badge/Django-0769AD?style=for-the-badge&logo=django&logoColor=white
+[Django-url]:https://www.djangoproject.com/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
