@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/static/assets/img/logo/logo.png" alt="Logo">
+    <img src="/CLIENT/static/assets/img/logo/logo.png" alt="Logo">
   </a>
 
   <h3 align="center">WEB 3.0 And Django</h3>
@@ -126,7 +126,7 @@ Project Link: [https://github.com/bouslama-hamza/WEB-3.0](https://github.com/bou
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/hamza-bouslama
-[product-screenshot]: /static/assets/img/template.png
+[product-screenshot]: /CLIENT/static/assets/img/template.png
 [Django.com]:https://img.shields.io/badge/Django-0769AD?style=for-the-badge&logo=django&logoColor=white
 [Django-url]:https://www.djangoproject.com/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
